@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Audio files (large, exclude from repo)
+audio_samples/
+refined_audio/
+test_outputs/
+
+# Logs
+*.log
+setup_log.txt
+setup_output.log
+refinement_pipeline.log
+voice_cloning_test.log
+full_test_suite.log
+
+# Results and data
+*.json
+!package.json
+audio_quality_results.json
+setup_results.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Model cache (very large files)
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+models/
+.cache/
+.tts_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Large test files
+=*.txt
+

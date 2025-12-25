@@ -1,0 +1,19 @@
+# Voice Cloning Requirements
+# Install with: pip install -r requirements.txt
+
+# Coqui XTTS (Recommended - Easiest)
+TTS>=0.22.0
+
+# For Hugging Face models (MetaVoice, Chatterbox, etc.)
+transformers>=4.30.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Audio processing (required for detailed logging)
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Optional: For better audio quality
+numpy>=1.24.0
+scipy>=1.10.0
+
