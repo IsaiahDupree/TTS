@@ -1,0 +1,303 @@
+{
+  "timestamp": "2025-12-26T17:18:17.939658",
+  "total_samples": 12,
+  "emotions_tested": {
+    "natural": {
+      "count": 2,
+      "avg_expressiveness": 38.703587305627096,
+      "avg_pitch_variation": 0.15455467304902543,
+      "avg_energy_dynamics": 0.3098679929971695
+    },
+    "happy_medium": {
+      "count": 2,
+      "avg_expressiveness": 35.42698478288255,
+      "avg_pitch_variation": 0.13941457606564683,
+      "avg_energy_dynamics": 0.30048567056655884
+    },
+    "sad_medium": {
+      "count": 2,
+      "avg_expressiveness": 39.55327869055725,
+      "avg_pitch_variation": 0.19252064489219517,
+      "avg_energy_dynamics": 0.3349779546260834
+    },
+    "angry_medium": {
+      "count": 2,
+      "avg_expressiveness": 46.53029906063528,
+      "avg_pitch_variation": 0.23062700801458316,
+      "avg_energy_dynamics": 0.37774285674095154
+    },
+    "surprised_medium": {
+      "count": 2,
+      "avg_expressiveness": 46.29313282903853,
+      "avg_pitch_variation": 0.2143018216724576,
+      "avg_energy_dynamics": 0.31525689363479614
+    },
+    "calm_medium": {
+      "count": 2,
+      "avg_expressiveness": 41.763192445936696,
+      "avg_pitch_variation": 0.20060797909654027,
+      "avg_energy_dynamics": 0.3361412435770035
+    }
+  },
+  "statistics": {
+    "avg_expressiveness": 41.378412519112906,
+    "std_expressiveness": 5.126286569139424,
+    "min_expressiveness": 33.95956006296836,
+    "max_expressiveness": 51.616149195239885
+  },
+  "rankings": {
+    "most_expressive": [
+      "angry_medium",
+      "surprised_medium",
+      "calm_medium",
+      "sad_medium",
+      "natural"
+    ],
+    "least_expressive": [
+      "surprised_medium",
+      "calm_medium",
+      "sad_medium",
+      "natural",
+      "happy_medium"
+    ]
+  },
+  "comparisons": [],
+  "detailed_results": [
+    {
+      "text_number": 1,
+      "emotion": "natural",
+      "expressiveness_score": 39.26972298811429,
+      "pitch_variation": 0.16489839581418628,
+      "energy_dynamics": 0.2981600761413574,
+      "comparison": null
+    },
+    {
+      "text_number": 1,
+      "emotion": "happy_medium",
+      "expressiveness_score": 34.57702391368146,
+      "pitch_variation": 0.12089657514439026,
+      "energy_dynamics": 0.2869865596294403,
+      "comparison": {
+        "pitch": {
+          "mean_diff": 19.323151253968092,
+          "std_diff": -3.8808457840187067,
+          "range_diff": -34.79784920909809,
+          "variation_diff": -0.04400182066979602
+        },
+        "energy": {
+          "mean_diff": 0.0035435035824775696,
+          "std_diff": 0.00016765855252742767,
+          "dynamics_diff": -0.011173516511917114
+        },
+        "expressiveness_diff": -4.692699074432831,
+        "more_expressive": false
+      }
+    },
+    {
+      "text_number": 1,
+      "emotion": "sad_medium",
+      "expressiveness_score": 45.146997318146134,
+      "pitch_variation": 0.24156528265631996,
+      "energy_dynamics": 0.34223106503486633,
+      "comparison": {
+        "pitch": {
+          "mean_diff": -8.22436102977116,
+          "std_diff": 8.845424730862426,
+          "range_diff": 28.498726074849685,
+          "variation_diff": 0.07666688684213369
+        },
+        "energy": {
+          "mean_diff": 1.563131809234619e-05,
+          "std_diff": 0.0033551175147295,
+          "dynamics_diff": 0.04407098889350891
+        },
+        "expressiveness_diff": 5.877274330031845,
+        "more_expressive": true
+      }
+    },
+    {
+      "text_number": 1,
+      "emotion": "angry_medium",
+      "expressiveness_score": 51.616149195239885,
+      "pitch_variation": 0.24933244576472763,
+      "energy_dynamics": 0.47022783756256104,
+      "comparison": {
+        "pitch": {
+          "mean_diff": 28.52872255858253,
+          "std_diff": 19.042691355166234,
+          "range_diff": 42.74533271298179,
+          "variation_diff": 0.08443404995054135
+        },
+        "energy": {
+          "mean_diff": 0.008612863719463348,
+          "std_diff": 0.017128610983490944,
+          "dynamics_diff": 0.1720677614212036
+        },
+        "expressiveness_diff": 12.346426207125596,
+        "more_expressive": true
+      }
+    },
+    {
+      "text_number": 1,
+      "emotion": "surprised_medium",
+      "expressiveness_score": 47.94366771316398,
+      "pitch_variation": 0.23651011222013923,
+      "energy_dynamics": 0.3011389970779419,
+      "comparison": {
+        "pitch": {
+          "mean_diff": 20.29362800089831,
+          "std_diff": 14.91755591958703,
+          "range_diff": 62.17000689865159,
+          "variation_diff": 0.07161171640595296
+        },
+        "energy": {
+          "mean_diff": 0.009190961718559265,
+          "std_diff": 0.002994181588292122,
+          "dynamics_diff": 0.0029789209365844727
+        },
+        "expressiveness_diff": 8.673944725049694,
+        "more_expressive": true
+      }
+    },
+    {
+      "text_number": 1,
+      "emotion": "calm_medium",
+      "expressiveness_score": 41.78200721297165,
+      "pitch_variation": 0.19117815929802168,
+      "energy_dynamics": 0.36603689193725586,
+      "comparison": {
+        "pitch": {
+          "mean_diff": -1.9021570209054346,
+          "std_diff": 3.3493759034846953,
+          "range_diff": -2.303845708425058,
+          "variation_diff": 0.0262797634838354
+        },
+        "energy": {
+          "mean_diff": -0.001221299171447754,
+          "std_diff": 0.0047121718525886536,
+          "dynamics_diff": 0.06787681579589844
+        },
+        "expressiveness_diff": 2.5122842248573605,
+        "more_expressive": true
+      }
+    },
+    {
+      "text_number": 2,
+      "emotion": "natural",
+      "expressiveness_score": 38.137451623139896,
+      "pitch_variation": 0.1442109502838646,
+      "energy_dynamics": 0.32157590985298157,
+      "comparison": null
+    },
+    {
+      "text_number": 2,
+      "emotion": "happy_medium",
+      "expressiveness_score": 36.27694565208364,
+      "pitch_variation": 0.1579325769869034,
+      "energy_dynamics": 0.31398478150367737,
+      "comparison": {
+        "pitch": {
+          "mean_diff": 7.633055048148407,
+          "std_diff": 3.242542088686978,
+          "range_diff": -17.529898969976955,
+          "variation_diff": 0.013721626703038808
+        },
+        "energy": {
+          "mean_diff": -0.005064979195594788,
+          "std_diff": -0.0021920595318078995,
+          "dynamics_diff": -0.007591128349304199
+        },
+        "expressiveness_diff": -1.8605059710562557,
+        "more_expressive": false
+      }
+    },
+    {
+      "text_number": 2,
+      "emotion": "sad_medium",
+      "expressiveness_score": 33.95956006296836,
+      "pitch_variation": 0.14347600712807035,
+      "energy_dynamics": 0.3277248442173004,
+      "comparison": {
+        "pitch": {
+          "mean_diff": 8.211660771549305,
+          "std_diff": 1.0690708518904302,
+          "range_diff": -42.10999690139316,
+          "variation_diff": -0.0007349431557942543
+        },
+        "energy": {
+          "mean_diff": -0.00352555513381958,
+          "std_diff": -0.0006679967045783997,
+          "dynamics_diff": 0.006148934364318848
+        },
+        "expressiveness_diff": -4.177891560171538,
+        "more_expressive": false
+      }
+    },
+    {
+      "text_number": 2,
+      "emotion": "angry_medium",
+      "expressiveness_score": 41.444448926030674,
+      "pitch_variation": 0.2119215702644387,
+      "energy_dynamics": 0.28525787591934204,
+      "comparison": {
+        "pitch": {
+          "mean_diff": 10.8224518527484,
+          "std_diff": 12.345441450064836,
+          "range_diff": 17.660026791558124,
+          "variation_diff": 0.0677106199805741
+        },
+        "energy": {
+          "mean_diff": 0.013747446238994598,
+          "std_diff": 0.0010427050292491913,
+          "dynamics_diff": -0.036318033933639526
+        },
+        "expressiveness_diff": 3.306997302890778,
+        "more_expressive": true
+      }
+    },
+    {
+      "text_number": 2,
+      "emotion": "surprised_medium",
+      "expressiveness_score": 44.64259794491308,
+      "pitch_variation": 0.19209353112477598,
+      "energy_dynamics": 0.3293747901916504,
+      "comparison": {
+        "pitch": {
+          "mean_diff": 19.612878068422816,
+          "std_diff": 10.8758804458942,
+          "range_diff": 40.39075026502093,
+          "variation_diff": 0.047882580840911376
+        },
+        "energy": {
+          "mean_diff": 0.010418474674224854,
+          "std_diff": 0.004049787297844887,
+          "dynamics_diff": 0.007798880338668823
+        },
+        "expressiveness_diff": 6.505146321773182,
+        "more_expressive": true
+      }
+    },
+    {
+      "text_number": 2,
+      "emotion": "calm_medium",
+      "expressiveness_score": 41.74437767890175,
+      "pitch_variation": 0.21003779889505889,
+      "energy_dynamics": 0.3062455952167511,
+      "comparison": {
+        "pitch": {
+          "mean_diff": 8.955924261207429,
+          "std_diff": 11.653359180321818,
+          "range_diff": 12.917240590492185,
+          "variation_diff": 0.06582684861119428
+        },
+        "energy": {
+          "mean_diff": -0.0024805963039398193,
+          "std_diff": -0.001974876970052719,
+          "dynamics_diff": -0.015330314636230469
+        },
+        "expressiveness_diff": 3.6069260557618534,
+        "more_expressive": true
+      }
+    }
+  ]
+}

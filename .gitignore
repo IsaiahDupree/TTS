@@ -27,6 +27,7 @@ full_test_suite.log
 # Results and data
 *.json
 !package.json
+!**/benchmark_report.json
 audio_quality_results.json
 setup_results.json
 
